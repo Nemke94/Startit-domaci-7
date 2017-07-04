@@ -1,0 +1,199 @@
+/*content*/
+/* 1.navigation */
+/* 2.main */
+/* 3.footer */
+
+
+* {
+	font-family: 'Lato', sans-serif;
+	box-sizing: border-box;
+	
+}
+
+body {
+	background-color: #E3E4E5;
+}
+
+ul {
+	list-style: none;
+	margin: 0;
+}
+
+a {
+	text-decoration: none;
+	color: #253039;
+	text-shadow: none;
+}
+
+/* 1.navigaton */
+
+nav {
+	margin-bottom: 2px;
+}
+
+nav ul {
+	display: inline-block;
+	float: right;
+}
+
+nav ul li {
+	display: inline-block;
+	margin: 6px;
+	padding: 8px;
+}
+
+#box {
+	border: 2px solid;
+	border-color: #000000;
+	border-radius: 4px;
+}
+
+/* 2.main */
+
+h1 {
+	font-size: 94px;
+	color: #253039;
+	text-shadow: rgb(20, 144, 120) 1px 1px,
+}
+
+p {
+	font-size: 20px;
+	color: #253039;
+}
+
+p#color {
+	font-size: 14px;
+	color: #70787D;
+}
+
+a.sign {
+	text-decoration: underline;
+}
+
+#get_started {
+	background-color: #42c299;
+	color: #fff;
+	padding: 10px;
+	border-radius: 6px;
+	border-color: #42c299;
+}
+
+#star {
+	font-size: 30px;
+	vertical-align: top;
+}
+
+span {
+	color: #FF0000;
+}
+
+input {
+	font-size: 25px;
+	padding: 10px;
+	max-width: 250px;
+	border-radius: 6px;
+}
+
+.outer-wrapper {
+	padding-top: 10%;
+	max-height: 1000px;
+	position: relative;
+	padding-bottom: 10%;
+	margin-top: 20px;
+}
+
+.content {
+	max-width: 1014px;
+	margin-left: auto;
+	margin-right: auto;
+	padding: 10px;
+}
+
+.svg-wrapper {
+	background-image: url("iconstest.png");
+	height: 550px;
+	width: 595.4px;
+	background-size: contain;
+	background-repeat: no-repeat;
+	bottom: 0;
+	right: 0;
+	margin-right: 20px;
+	position: absolute;
+}
+
+
+/* 3.footer */
+
+footer {
+	background-color: #fff !important;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	bottom: 0;
+	left: 0;
+	border-top: 1px solid #E8E8E8;
+}
+
+.lines {
+	display: inline-block;
+	vertical-align: top;
+	margin-left: 10%;
+	background-color: #fff !important;
+	margin-top: 6%;
+	margin-bottom: 6%;
+}
+
+
+
+.link {
+	width: 100%;
+	box-sizing: border-box;
+	position: absolute;
+	background-color: #fff;
+}
+
+.grid {
+	margin: 0 auto;
+}
+
+#us {
+	color: #fdc663;
+}
+
+#slack {
+	color: #FF0000;
+}
+
+#legal {
+	color: #42c299;
+}
+
+#hl {
+	color: #0000FF;
+}
+
+.footnote {
+    margin-top: 1rem;
+    background-color: rgba(0,0,0,.05);
+    overflow: hidden;
+    min-height: 50px;
+    height: 50px;
+    width:100%;
+}
+
+.fa-slack {
+	color: #9a9a9a;
+	padding: 10px;
+}
+
+.fa-twitter {
+	color: #9a9a9a;
+	float: right;
+	padding: 10px;
+}
+
+.fa-youtube-play {
+	color: #9a9a9a;
+	float: right;
+	padding: 10px;
+}
